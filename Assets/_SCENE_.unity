@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49ba272ccfd284959a8a56b979509800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorSpirte: {fileID: 21300000, guid: 862b6285a54da451a95c5ee95c20d0e1, type: 3}
 --- !u!1 &668985385
 GameObject:
   m_ObjectHideFlags: 0

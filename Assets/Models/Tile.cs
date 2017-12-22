@@ -17,10 +17,11 @@ public class Tile {
 			return type;
 		}
 		set {
+			TileType oldType = type;
 			type = value;
 			// Call the callback and let things know we've changed. 
 
-			if(cbTileTypeChanged != null)
+			if(cbTileTypeChanged != null && oldType != type)
 			cbTileTypeChanged(this);
 		}
 	}
